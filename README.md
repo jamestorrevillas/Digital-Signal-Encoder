@@ -60,3 +60,6 @@ This application allows users to input binary data (0s and 1s) and see how it wo
 ## Screenshots
 ![Main Interface](images/main.png)
 ![Example Output](images/example.png)
+
+## Author
+@jamestorevillas
