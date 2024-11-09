@@ -69,7 +69,7 @@ class DigitalSignalEncoder:
         button_frame.grid(row=0, column=2, pady=5, padx=(10, 0))
 
         # Previous Level dropdown
-        ttk.Label(button_frame, text="Initial Level:",
+        ttk.Label(button_frame, text="Initial Signal Level:",
                   style='Header.TLabel').grid(row=0, column=0, padx=(0, 5))
         self.initial_level_var = tk.StringVar(value="High")
         self.initial_level = ttk.Combobox(button_frame,
@@ -93,7 +93,7 @@ class DigitalSignalEncoder:
         instructions = (
             "Instructions:\n"
             "1. Enter a sequence of binary digits (0s and 1s) in the input field above\n"
-            "2. Select Initial Level (High or Low) to set the signal level before the first bit\n"
+            "2. Select Initial Signal Level (High or Low) to set the signal level before the first bit\n"
             "3. Click 'Generate All Signals' to see the encoding results\n"
             "4. Each plot shows a different encoding technique used in digital communication"
         )
