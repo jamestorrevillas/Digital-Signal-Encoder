@@ -13,7 +13,7 @@ This application allows users to input binary data (0s and 1s) and see how it wo
   - Pseudoternary
   - Manchester
   - Differential Manchester
-- Initial Level selection for proper signal encoding
+- Initial Signal Level selection for proper signal encoding
 - Real-time signal visualization
 - Clear and reset functionality
 - Grid-based signal display
@@ -53,7 +53,7 @@ This application allows users to input binary data (0s and 1s) and see how it wo
   python digital_signal_encoder.py
   ```
 3. Enter binary data (e.g., 01001110)
-4. Select Initial Level (High or Low)
+4. Select Initial Signal Level (High or Low)
 5. Click 'Generate All Signals' to view the encodings
 6. Use 'Clear' to reset
 
